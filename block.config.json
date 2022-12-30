@@ -1,0 +1,13 @@
+{
+  "name": "test_block_nvs",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/test_block_nvs",
+    "ssh": "git@github.com:nikhilvneoito/test_block_nvs.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
